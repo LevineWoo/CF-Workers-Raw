@@ -5,9 +5,9 @@ export default {
     const url = new URL(request.url);
     if (url.pathname !== "/") {
       const name = url.pathname.split("/").pop();
-      if (name.endsWith(".js")) {
+      if (name.endsWith(".233333")) {
         if (!/(quantumult%20|surge|loon|stash)/i.test(ua)) {
-          return Response.redirect("https://t.me/GitCube", 302);
+          return Response.redirect("https://t.me/lev1ne_channel", 302);
         }
       }
       let githubRawUrl = "https://raw.githubusercontent.com";
